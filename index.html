@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Scroll Example</title>
+  <link rel="stylesheet" href="styles.css">
+
+
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+
+	}
+
+	#topnav{
+		list-style-type: none;
+		text-align: center;
+		
+		background: #a93133 url("images/bg-red.jpg") top left repeat-x;
+	}
+	
+	#topnav li{
+		display: inline-block;
+		width: 150px;
+		height: 40px;
+		line-height: 40px;
+		margin-left: -5px;
+		margin: 10px;
+	}
+	
+	#topnav li a {
+		text-decoration: none;
+		color: #fff;
+		display: flex;
+		align-items: center;
+		font-weight: bold;
+	}
+	#topnav li a h4{
+		padding: 0px 5px;
+	}
+	
+	#topnav li a.active {
+		color: white;
+		background-color: #C20000;
+	}
+	
+	#topnav li a:hover:not(.active) {
+		background-color: #ff6655;
+		color: white;
+	}
+	#menu_ceramic1{
+		width: 30px;
+		height: 30px;
+		background-image: url(images/product-list-icon-ceramic.png);
+	}
+	
+	</style>
+	
+</head>
+<body>
+    <header>
+		<div id="menu">
+			<div id="logo"><a href="#home"><img src="images/logo.png" alt="Logo" style="width: 200px" /></a></div>
+			
+			<ul id="topnav">
+
+				<li><a class="active" href="#home">Trang chủ</a></li>
+				<li>
+					<a href="#news">
+						<div id="menu_ceramic1"></div>
+						<h4>Gạch lát nền</h4>
+					</a>
+				</li>
+				<li><a href="#contact">Gạch ốp tường</a></li>
+				<li><a href="#about">Gạch sân vườn</a></li>
+				<li><a href="#about">Thiết bị vệ sinh</a></li>
+				<li><a href="#about">Sản phẩm phụ trợ</a></li>
+			</ul>
+
+
+</div>
+    </header>
+    <div id="product-container">
+        <!-- Product images will be inserted here -->
+    </div>
+    <div id="loading" class="loading">Loading...</div>
+	<script src="script.js"></script>
+   
+</body>
+</html>
