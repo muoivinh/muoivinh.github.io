@@ -26571,6 +26571,17 @@ span.select2-selection.select2-selection--single:focus {
     align-items: flex-start;
     margin: 0 12px;
 }
+
+.gallery-row4-renew {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin: 0 12px;
+}
+
 @media (max-width: 1199px) {
     .gallery-row4 {
         grid-template-columns: auto auto auto;
