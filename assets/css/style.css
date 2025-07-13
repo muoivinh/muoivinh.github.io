@@ -29954,3 +29954,8 @@ span.select2-selection.select2-selection--single:focus {
     border-color: cadetblue;
     border-width: 1px;
 }
+
+.mv-item{
+    height: 100%;
+    align-content: center; 
+}

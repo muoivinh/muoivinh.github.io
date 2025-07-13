@@ -3753,5 +3753,5 @@ const products = [
 
 products.forEach(val => {
 
-     gallery.insertAdjacentHTML('beforeend', "<div class='col-auto'> <div class='gallery-box mv-border'> <div class='gallery-img global-img'><img class='lazyload' data-src='" + val.image + "'><span style='position: absolute; left: 5%; bottom: 1%; color: black; font-size: 70%;'>"+val.id+"</span><a href='" + val.image + "' class='icon-btn popup-image'><i class='fal fa-magnifying-glass-plus'></i></a></div></div></div>");
+     gallery.insertAdjacentHTML('beforeend', "<div class='col-auto'> <div class='gallery-box mv-border mv-item'> <div class='gallery-img global-img mv-item'><img class='lazyload' data-src='" + val.image + "'><span style='position: absolute; left: 5%; bottom: 1%; color: black; font-size: 70%;'>"+val.id+"</span><a href='" + val.image + "' class='icon-btn popup-image'><i class='fal fa-magnifying-glass-plus'></i></a></div></div></div>");
 });
