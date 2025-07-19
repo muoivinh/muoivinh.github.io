@@ -66,11 +66,11 @@
 
     <div class="th-menu-wrapper onepage-nav">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="home-travel.html"><img src="assets/img/logo2.svg" alt="Mười Vinh"></a>
+            <div class="mobile-logo"><a href="index.html"><img src="assets/img/logo2.svg" alt="Mười Vinh"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li class="mega-menu-wrap"><a href="home-travel.html">Trang chủ</a></li>
+                    <li class="mega-menu-wrap"><a href="index.html">Trang chủ</a></li>
                     <li><a class="active" href="gach_lat_nen.html">Gạch lát nền</a></li>
                     <li><a href="gach_op_tuong.html">Gạch ốp tường</a></li>
                     <li><a href="gach_san_vuon.html">Gạch sân vườn</a></li>
@@ -106,9 +106,9 @@
                             <div class="header-links">
                                 <ul>
                                     <li class="d-none d-md-inline-block"><i class="fa-regular fa-heart"></i><a
-                                            href="">Sản phẩm yêu thích</a></li>
+                                            href="#">Sản phẩm yêu thích</a></li>
                                     <li class="d-none d-md-inline-block"><i class="fa-regular fa-cart-shopping"></i><a
-                                            href="">Giỏ hàng</a></li>
+                                            href="#">Giỏ hàng</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
                         <div class="col-auto me-xl-auto">
                             <nav class="main-menu d-none d-xl-inline-block">
                                 <ul>
-                                    <li class="mega-menu-wrap"><a href="home-travel.html">Trang chủ</a>
+                                    <li class="mega-menu-wrap"><a href="index.html">Trang chủ</a>
                                     </li>
                                     <li><a class="active" href="gach_lat_nen.html">Gạch lát nền</a></li>
                                     <li><a href="gach_op_tuong.html">Gạch ốp tường</a></li>
@@ -144,7 +144,7 @@
                                     class="far fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-xl-block">
-                            <div class="header-button"><a href="contact.html" class="th-btn style3 th-icon">Mua ngay</a>
+                            <div class="header-button"><a href="#" class="th-btn style3 th-icon">Mua ngay</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
         </div>
     </header>
 
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/bg_1.jpg">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Gạch lát nền</h1>
@@ -166,41 +166,84 @@
         </div>
     </div>
 
-    <div class="space" id="gallery-sec">
-        <div class="container-fuild">
 
-            <div class="row gy-4 gallery-row4-renew" id="gallery" style="overflow-y: scroll">
+    <div class="container">
+        <form id="filterForm">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-4 mv-padding">
+                    <input type="text" id="txt_ma" class="mv-radius" placeholder="Nhập mã sản phẩm">
+                </div>
+                <div class="col-md-2 mv-padding">
+                    <select name="kichthuoc" id="sl_kichthuoc" class="mv-radius">
+                        <option value="" selected="selected">Chọn kích thước
+                        </option>
+                        <option value="20x20cm">20 x 20cm</option>
+                        <option value="30x30cm">30 x 30cm</option>
+                        <option value="40x40cm">40 x 40cm</option>
+                        <option value="50x50cm">50 x 50cm</option>
+                        <option value="60x60cm">60 x 60cm</option>
+                    </select>
+                </div>
+                <div class="col-md-3 mv-padding">
+                    <select name="thuonghieu" id="sl_thuonghieu" class="mv-radius">
+                        <option value="" selected="selected">Chọn Thương hiệu</option>
+                        <option value="Prime">Prime</option>
+                        <option value="Viglacera">Viglacera</option>
+                        <option value="Ý Mỹ">Ý Mỹ</option>
+                        <option value="Hoàn Mỹ">Hoàn Mỹ</option>
+                        <option value="Kamado">Kamado</option>
+                        <option value="Katalan">Katalan</option>
+                        <option value="Đồng Tâm">Đồng Tâm</option>
+                        <option value="Taicera">Taicera</option>
+                        <option value="Mikado">Mikado</option>
+                    </select>
+                </div>
+                <div class="col-md-2 mv-padding">
+
+                    <button type="submit" class="th-btn style3" style="width: 100%; "> <i
+                            class="fa-light fa-magnifying-glass"></i></button>
 
 
+                </div> 
+
+                <div class="col-md-1 mv-padding">
+
+                    <button type="button" id="resetBtn" class="th-btn style3" style="width: 100%; "> <i class="fa-solid fa-filter-slash"></i></button>
 
 
+                </div>
+               
             </div>
-        </div>
+        </form>
     </div>
 
-
-
-
+    <div id="gallery-sec">
+        <div class="container-fuild">
+            <div class="row gy-4 gallery-row4-renew" id="gallery"></div>
+        </div>
+    </div>
 
     <footer class="footer-wrapper footer-layout1">
         <div class="widget-area">
             <div class="container">
-
                 <div class="row justify-content-between">
                     <div class="col-md-4 col-xl-4">
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
-                                <div class="about-logo"><a href="home-travel.html"><img src="assets/img/logo3.svg"
-                                            alt="Tourm"></a></div>
-                                <p class="about-text">Mười Vinh - cung cấp sản phẩm và dịch vụ trong lĩnh vực vật liệu
-                                    xây dựng, mang đến cho khách hàng nhiều ý tưởng phong phú hiện diện trong các sản
-                                    phẩm gạch ốp lát, ngói và thiết bị vệ sinh</p>
-                                <div class="th-social"><a href="https://www.facebook.com/"><i
-                                            class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i
-                                            class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
-                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i
-                                            class="fab fa-whatsapp"></i></a> <a href="https://instagram.com/"><i
-                                            class="fab fa-instagram"></i></a></div>
+                                <div class="about-logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/logo3.svg" alt="Tourm">
+                                    </a>
+                                </div>
+                                <p class="about-text">Mười Vinh - Cung cấp hàng trăm mẫu gạch men đẹp, hiện đại, chống trầy, chống trơn hiệu quả.<br>
+📍 Mẫu mã đa dạng – Giá xưởng – Tư vấn tận tâm!</p>
+                                <div class="th-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -288,7 +331,7 @@
     <script src="assets/js/nice-select.min.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <script src="assets/js/product.js"></script>
+    <script src="assets/js/product/gach_lat_nen.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
 </body>
 
