@@ -26594,7 +26594,7 @@ span.select2-selection.select2-selection--single:focus {
     }
 }
 
-.gallery-row4-renew {
+.gallery-row5 {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     border: 1px solid #e1e4e5;
@@ -26606,23 +26606,23 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 @media (max-width: 1399px) {
-    .gallery-row4-renew {
+    .gallery-row5 {
         grid-template-columns: auto auto auto auto;
     }
 }
 
 @media (max-width: 1199px) {
-    .gallery-row4-renew {
+    .gallery-row5 {
         grid-template-columns: auto auto auto;
     }
 }
 @media (max-width: 767px) {
-    .gallery-row4-renew {
+    .gallery-row5 {
         grid-template-columns: auto auto;
     }
 }
 @media (max-width: 575px) {
-    .gallery-row4-renew {
+    .gallery-row5 {
         grid-template-columns: auto;
     }
 }
