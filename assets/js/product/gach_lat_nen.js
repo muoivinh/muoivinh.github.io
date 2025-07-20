@@ -29,22 +29,22 @@ const gach_lat_nen = [
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-        {
+    {
         id: 'N.60.60.0007',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-        {
+    {
         id: 'N.60.60.0008',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-        {
+    {
         id: 'N.60.60.0009',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-        {
+    {
         id: 'N.60.60.0010',
         size: '60 x 60cm',
         manufacturer: 'Prime',
@@ -79,58 +79,113 @@ const gach_lat_nen = [
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-        {
+    {
         id: 'N.60.60.0017',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-        {
+    {
         id: 'N.60.60.0018',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-        {
+    {
         id: 'N.60.60.0019',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-        {
+    {
         id: 'N.60.60.0020',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-     {
+    {
         id: 'N.60.60.0021',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-     {
+    {
         id: 'N.60.60.0022',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-     {
+    {
         id: 'N.60.60.0023',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-     {
+    {
         id: 'N.60.60.0024',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-     {
+    {
         id: 'N.60.60.0025',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-     {
+    {
         id: 'N.60.60.0026',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
-     {
+    {
         id: 'N.60.60.0027',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0028',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0029',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0030',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0031',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0032',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0033',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0034',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0035',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0036',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0037',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+    {
+        id: 'N.60.60.0038',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
@@ -142,12 +197,12 @@ const src = "assets/img/product/normal-quality/"
 function showData(arr) {
     gallery.innerHTML = ""
 
-    if (arr.length === 0) { 
+    if (arr.length === 0) {
     } else {
-        
-        arr.forEach(val => { gallery.insertAdjacentHTML('beforeend', "<div class='col-auto'> <div class='gallery-box mv-border mv-item'> <div class='gallery-img global-img mv-item'><img class='lazyload' data-src='" + src + val.id + ".jpg" + "'><span style='position: absolute; left: 5%; bottom: 1%; color: black; font-size: 70%;'>" + val.id + "</span><a href='" + src + val.id + ".jpg"  + "' class='icon-btn popup-image'><i class='fal fa-magnifying-glass-plus'></i></a></div></div></div>"); });
+
+        arr.forEach(val => { gallery.insertAdjacentHTML('beforeend', "<div class='col-auto'> <div class='gallery-box mv-border mv-item'> <div class='gallery-img global-img mv-item'><img class='lazyload' data-src='" + src + val.id + ".jpg" + "'><span style='position: absolute; left: 5%; bottom: 1%; color: black; font-size: 70%;'>" + val.id + "</span><a href='" + src + val.id + ".jpg" + "' class='icon-btn popup-image'><i class='fal fa-magnifying-glass-plus'></i></a></div></div></div>"); });
     }
-   }
+}
 
 function searchProduct() {
     const filtered = gach_lat_nen.filter(product => {
@@ -195,12 +250,12 @@ form.addEventListener('submit', function (e) {
 
 const resetBtn = document.getElementById('resetBtn');
 resetBtn.addEventListener('click', function () {
-  // Reset form inputs
-  document.getElementById('txt_ma').value = "";
-  document.getElementById('sl_kichthuoc').value = "";
-  document.getElementById('sl_thuonghieu').value = "";
+    // Reset form inputs
+    document.getElementById('txt_ma').value = "";
+    document.getElementById('sl_kichthuoc').value = "";
+    document.getElementById('sl_thuonghieu').value = "";
 
-  // Hiển thị lại toàn bộ sản phẩm
+    // Hiển thị lại toàn bộ sản phẩm
     showData(gach_lat_nen);
 });
 
