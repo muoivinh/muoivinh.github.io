@@ -74,6 +74,66 @@ const gach_lat_nen = [
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
+    {
+        id: 'N.60.60.0016',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+        {
+        id: 'N.60.60.0017',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+        {
+        id: 'N.60.60.0018',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+        {
+        id: 'N.60.60.0019',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+        {
+        id: 'N.60.60.0020',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+     {
+        id: 'N.60.60.0021',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+     {
+        id: 'N.60.60.0022',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+     {
+        id: 'N.60.60.0023',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+     {
+        id: 'N.60.60.0024',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+     {
+        id: 'N.60.60.0025',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+     {
+        id: 'N.60.60.0026',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+     {
+        id: 'N.60.60.0027',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
 
 ];
 const gallery = document.getElementById("gallery");
