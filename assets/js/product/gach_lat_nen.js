@@ -184,11 +184,118 @@ const gach_lat_nen = [
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
+
     {
-        id: 'N.60.60.0038',
+        id: 'N.60.60.0039',
         size: '60 x 60cm',
         manufacturer: 'Prime',
     },
+{
+        id: 'N.60.60.0040',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0041',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0042',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0043',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0044',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0045',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0046',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0047',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0048',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0049',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0050',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0051',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0052',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0053',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0054',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0055',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0056',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0057',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0058',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0059',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    },
+{
+        id: 'N.60.60.0060',
+        size: '60 x 60cm',
+        manufacturer: 'Prime',
+    }
+
 
 ];
 const gallery = document.getElementById("gallery");
