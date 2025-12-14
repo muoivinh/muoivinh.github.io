@@ -593,7 +593,32 @@ const gach_lat_nen = [
         id: 'N.60.60.0119',
         size: '60 x 60cm',
         manufacturer: 'Prime',
-    }
+    },
+{         id: 'N.60.60.0120',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0121',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0122',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0123',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0124',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0125',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0126',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0127',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0128',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0129',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0130',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0131',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0132',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0133',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0134',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0135',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0136',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0137',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0138',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0139',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0140',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0141',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0142',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+{         id: 'N.60.60.0143',         size: '60 x 60cm',         manufacturer: 'Prime',     },
+
 
 
 ];
