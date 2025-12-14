@@ -1,4 +1,4 @@
-const gach_lat_nen = [
+const gach = [
     {
         id: 'N.60.60.0001',
         size: '60 x 60cm',
@@ -623,7 +623,7 @@ const gach_lat_nen = [
 
 ];
 const gallery = document.getElementById("gallery");
-const src = "assets/img/product/normal-quality/"
+const src = "assets/img/product/normal-quality/N/"
 
 function showData(arr) {
     gallery.innerHTML = ""
@@ -636,7 +636,7 @@ function showData(arr) {
 }
 
 function searchProduct() {
-    const filtered = gach_lat_nen.filter(product => {
+    const filtered = gach.filter(product => {
         if (product.id === "id") {
             if (product.size === "") {
                 if (product.manufacturer === "") {
@@ -662,7 +662,7 @@ form.addEventListener('submit', function (e) {
     let sl_thuonghieu = document.getElementById('sl_thuonghieu').value;
 
 
-    let filtered = gach_lat_nen.filter(product => {
+    let filtered = gach.filter(product => {
         if (txt_ma && product.id !== txt_ma) {
             return false;
         }
@@ -687,7 +687,7 @@ resetBtn.addEventListener('click', function () {
     document.getElementById('sl_thuonghieu').value = "";
 
     // Hiển thị lại toàn bộ sản phẩm
-    showData(gach_lat_nen);
+    showData(gach);
 });
 
-showData(gach_lat_nen);
+showData(gach);
